@@ -1,0 +1,46 @@
+body{
+    background-color: #F6E0B5;
+}
+@font-face {
+    font-family: callistaItalic;
+    src: url("../font/Callista Italic.ttf");
+}
+@font-face {
+    font-family: bebasNeueRegular;
+    src: url("../font/BebasNeue-Regular.ttf");
+}
+@font-face {
+    font-family: caviarDreams;
+    src: url("../font/CaviarDreams.ttf");
+}
+@font-face {
+    font-family: codefont;
+    src: url("../font/Code.ttf");
+}
+.callistaItalic{
+    font-family: callistaItalic;
+}
+.bebasNeueRegular{
+    font-family: bebasNeueRegular;
+}
+.caviarDreams{
+    font-family: caviarDreams;
+}
+.codefont{
+    font-family: codefont;
+}
+.blur{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+.card{
+    border:none;
+}
+#back2top{
+    font-size: 3rem;
+    color: #EEA990;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
